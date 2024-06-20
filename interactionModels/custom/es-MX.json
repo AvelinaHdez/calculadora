@@ -1,0 +1,136 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "numUno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numDos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "SumaIntent",
+          "samples": [
+            "Cuanto es {numUno} mas {numDos}",
+            "Suma {numUno} mas {numDos}",
+            "Suma {numUno} y {numDos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numUno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numDos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "RestaIntent",
+          "samples": [
+            "cuanto es {numUno} menos {numDos}",
+            "resta {numUno} y {numDos}",
+            "resta {numUno} menos {numDos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numUno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numDos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "MultiplicacionIntent",
+          "samples": [
+            "cual es el resultado de la multiplicacion {numUno} por {numDos}",
+            "multiplica {numUno} y {numDos}",
+            "cuanto es {numUno} por {numDos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numUno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numDos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "DivisionIntent",
+          "samples": [
+            "divide {numUno} y {numDos}",
+            "cuanto es {numUno} entre {numDos}",
+            "cual es el resultado de esta division {numUno} entre {numDos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numero",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "RaizCuadradaIntent",
+          "samples": [
+            "cuanto es la raiz cuadrada de {numero}",
+            "dime la raiz de {numero}",
+            "cual es la raiz de {numero}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numero",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "LogaritmoIntent",
+          "samples": [
+            "dime el logaritmo de {numero}",
+            "cual es el logaritmo de {numero}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "calculadora uthh"
+    }
+  }
+}
